@@ -1,9 +1,9 @@
-axios.defaults.baseURL = 'http://localhost:4000';
+axios.defaults.baseURL = 'https://tghelere.github.io/vue-authenticate/example';
 
 Vue.use(VueRouter)
 Vue.use(VueAuthenticate, {
   tokenName: 'access_token',
-  baseUrl: 'http://localhost:4000',
+  baseUrl: 'https://tghelere.github.io/vue-authenticate/example',
   storageType: 'cookieStorage',
   providers: {
     // Define OAuth providers config
